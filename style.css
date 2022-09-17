@@ -6,16 +6,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    padding-bottom: 150px;  
 }
 .half-with{
     width: 50%;
     padding-left: 5%; 
-    padding-bottom: 150px;  
+    
 }
 .half-with img{
     width: 80%;
@@ -31,3 +35,31 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-seation{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#my-ex{
+    padding-left: 5%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+#pro-journy{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, salmon);
+    border-image-slice: 1;
+}
+#baby-wab{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
